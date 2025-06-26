@@ -37,4 +37,4 @@ Incluye panel de compras, informe de ventas, y administración con API y base de
 ### 1. Cloná el repositorio
 
 ```bash
-git clone https://github.com/JosemT03/BocaMundialClubes.git
+git clone https://github.com/JosemT03/BocaMundialClubes.app.git
