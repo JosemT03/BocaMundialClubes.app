@@ -9,7 +9,7 @@ namespace BocaMundialClubesAPI.Data
     {
         public AppDbContext CreateDbContext(string[] args)
         {
-            // 🔧 Ruta absoluta y explícita a tu proyecto
+            
             var basePath = @"C:\Users\Windows\source\repos\EntradasBoca\BocaMundialClubesAPI";
 
             var configuration = new ConfigurationBuilder()

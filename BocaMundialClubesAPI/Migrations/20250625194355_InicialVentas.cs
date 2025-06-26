@@ -4,10 +4,10 @@
 
 namespace BocaMundialClubesAPI.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class InicialVentas : Migration
     {
-        /// <inheritdoc />
+        
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -28,7 +28,7 @@ namespace BocaMundialClubesAPI.Migrations
                 });
         }
 
-        /// <inheritdoc />
+        
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

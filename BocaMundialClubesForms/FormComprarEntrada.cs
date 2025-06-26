@@ -26,7 +26,7 @@ namespace BocaMundialClubesForms
 
         private void FormComprarEntrada_Load(object sender, EventArgs e)
         {
-            // Lista fija de entradas para todos los partidos
+            
             _entradasDelPartido = new List<Entrada>
             {
                 new Entrada { Id = 1, PartidoId = _partido.Id, Tipo = "General", Precio = 5000 },
@@ -89,6 +89,11 @@ namespace BocaMundialClubesForms
             {
                 MessageBox.Show("Error de conexión: " + ex.Message);
             }
+        }
+
+        private void btnSalir1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

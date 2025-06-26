@@ -28,7 +28,7 @@ namespace BocaMundialClubesForms
             {
                 FormEntradasDisponibles form = new FormEntradasDisponibles();
                 form.Show();
-                this.Hide(); // Oculta el login
+                this.Hide(); 
             }
             else
             {

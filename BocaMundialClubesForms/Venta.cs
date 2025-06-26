@@ -8,6 +8,7 @@ namespace BocaMundialClubesForms
 {
     public class Venta
     {
+        public int Id { get; set; }
         public int PartidoId { get; set; }
         public string TipoEntrada { get; set; }
         public string NombreComprador { get; set; }
